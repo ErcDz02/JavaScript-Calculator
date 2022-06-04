@@ -1,0 +1,92 @@
+body{ 
+background-color: #2C3A47;
+}
+
+.clearBoth {
+  clear: both;
+}
+
+#main-div-all {
+    width: 50%;
+  margin: 0 auto;
+  background-color: #fca311;
+}
+
+#display {
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  font-family: 'Sora', sans-serif;
+  font-size: 45px;
+  color: white;
+  background-color: black;
+	height: 60px;
+}
+
+.numbers { /*individual boxes*/
+  background-color: #14213d;
+  color: white;
+  font-family: 'Sora', sans-serif;
+  cursor: pointer;
+  float: left;
+  margin: 1%;
+    font-size: 25px;
+  width: 31%;
+    text-align: center;
+  
+}
+
+#number-div {
+  width: 100%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.operators {
+  background-color: black;
+  color: white;
+  font-family: 'Sora', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  width: 12%;
+  float: left;
+  margin: 2%;
+  font-size: 25px;
+}
+
+#operator-div {
+  width: 100%;
+  margin: 0 auto;
+/*   clear: left; */
+}
+
+
+.danger-btn, .delete-btn, .safe-btn {
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+  width: 29%;
+  float: left;
+  margin: 2%;
+  font-size: 25px;
+}
+
+.danger-btn:hover {
+  background-color: #ff7675;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #ffeaa7;
+   cursor: pointer;
+}
+
+.safe-btn:hover {
+  background-color: #74b9ff;
+   cursor: pointer;
+}
+
+#result-btn {
+  width: 50%;
+  margin: 0 auto;
+}
+
